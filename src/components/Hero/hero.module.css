@@ -1,0 +1,58 @@
+.container {
+  height: 100vh;
+  width: 100%;
+}
+
+.heroDetailContainer {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+}
+
+.heroTitleContainer {
+  font-size: 93px;
+  font-weight: 600;
+  text-align: center;
+  color: #0d0d0d;
+  line-height: 92px;
+}
+
+.heroSubtitleContainer {
+  font-size: 24px;
+  font-weight: 300;
+  text-align: center;
+  color: #0d0d0d;
+  line-height: 36px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.ctaContainer {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.ctaContainer > button > * {
+  text-decoration: none;
+}
+
+.signUpBtn {
+  border-radius: 10px;
+  background-color: #1a1919;
+  padding: 12px 20px;
+  border: 2px solid #1a1919;
+  * {
+    color: white;
+  }
+}
+
+.tryItLiveBtn {
+  border-radius: 10px;
+  background-color: white;
+  border: 2px solid #1a1919;
+  padding: 12px 20px;
+}

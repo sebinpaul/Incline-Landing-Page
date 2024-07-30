@@ -1,0 +1,53 @@
+.container {
+  height: 450px;
+  width: 310px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 25px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.205);
+  padding: 30px;
+  position: relative;
+}
+
+.featureImg {
+  width: 40px;
+  height: 40px;
+}
+
+.featureTag {
+  width: fit-content;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 2px 4px;
+  font-size: 11px;
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+.cardTitle {
+  font-weight: 600;
+  font-size: 25px;
+  margin-top: 30px;
+}
+
+.learnMoreLink {
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 15px;
+  position: absolute;
+  bottom: 30px;
+}
+
+.featureDescription {
+  color: #0d0d0d;
+  font-weight: 300;
+  margin-top: 30px;
+  padding-right: 60px;
+  line-height: 25px;
+}
+
+.tagsContainer {
+  display: flex;
+  gap: 5px;
+}

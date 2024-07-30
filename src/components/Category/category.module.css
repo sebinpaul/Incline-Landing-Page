@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.categoryTitle {
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.subCategory {
+  color: white;
+  opacity: 60%;
+  font-size: 14px;
+}

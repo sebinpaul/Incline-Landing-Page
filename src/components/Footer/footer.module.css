@@ -1,0 +1,62 @@
+.container {
+  width: 100%;
+  height: 1000px;
+  position: relative;
+  margin-top: 150px;
+}
+
+.footerImgContainer > img {
+  height: 1000px;
+  width: 100%;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+.footerDetailContainer {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  align-items: center;
+  gap: 100px;
+}
+
+.footerTitleContainer {
+  text-align: center;
+  font-size: 57px;
+  font-weight: 600;
+  color: white;
+}
+
+.footerTitleContainer :nth-child(3) {
+  font-size: 54px;
+}
+
+.footerDetailContainer > button {
+  height: 57px;
+  width: 255px;
+  background-color: white;
+  border-radius: 12px;
+  padding: 8px 0;
+  * {
+    color: #0d0d0d;
+
+    font-weight: 400;
+    font-size: 17px;
+  }
+}
+
+.categoryContainer {
+  display: flex;
+  gap: 100px;
+}
+
+.footerBase {
+  display: flex;
+  gap: 20px;
+  color: white;
+  opacity: 60%;
+  font-size: 13px;
+}

@@ -1,0 +1,61 @@
+.container {
+  width: 750px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.205);
+  background-color: white;
+  padding: 0 10px;
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  z-index: 1;
+}
+
+.logoContainer {
+  margin-top: 5px;
+}
+
+.menuContainer {
+  display: flex;
+  align-items: start;
+  gap: 24px;
+  * {
+    text-decoration: none;
+    color: #222222;
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+  }
+}
+
+.navActions {
+  display: flex;
+  gap: 8px;
+  font-size: 15px;
+}
+
+.loginBtn {
+  * {
+    text-decoration: none;
+    color: #141414;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+.signupBtn {
+  background-color: #222222;
+  padding: 8px 12px;
+  border-radius: 10px;
+  margin-left: 5px;
+  * {
+    text-decoration: none;
+    color: white;
+    padding: 0;
+    margin: 0;
+  }
+}
